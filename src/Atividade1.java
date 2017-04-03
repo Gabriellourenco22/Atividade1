@@ -87,10 +87,10 @@ public class Atividade1 {
     }
 
     public void run() throws IOException {
-        File PATH = new File("C:\\Users\\Gabriel Lourenço\\Desktop\\Java- Atividades\\Imagens\\img\\gray");
-        BufferedImage metroid = ImageIO.read(new File(PATH, "montanha.jpg"));
+        File PATH = new File("C:\\Users\\Gabriel Lourenço\\Desktop\\Java- Atividades\\Imagens\\img\\cor");
+        BufferedImage metroid = ImageIO.read(new File(PATH, "puppy.png"));
         BufferedImage metroidNeg = negativo(metroid);
-        ImageIO.write(metroidNeg, "png", new File("montanhaNegativo.png"));
+        ImageIO.write(metroidNeg, "png", new File("puppynovo.png"));
     }
 
     public static void main (String[] args) throws IOException {
